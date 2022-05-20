@@ -1,0 +1,40 @@
+.nav-bar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    padding-left: 50px;
+    margin-bottom: 70px;
+    background-color: #b8a69f;
+}
+.nav-name {
+    color: #1f1e1e;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+    margin-right: 50px;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 100px;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+}
+
+.nav-links {
+    font-family: 'Assistant', sans-serif;
+    color: #1f1e1e;
+    font-size: 18px;
+    background-color: #b8a69f;
+    cursor: pointer;
+    transition: color 0.1s, background-color 0.1s;
+    color: #000;
+}
+
+.nav-links:hover {
+    color: #fffaf2;
+}
+
