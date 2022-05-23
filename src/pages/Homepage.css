@@ -45,9 +45,10 @@
     background-color: #fafafb;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 120vh;
     padding-bottom: 80px;
     padding-left: 150px;
+    margin-bottom: 0;
 }
 
 .home-section {
@@ -133,7 +134,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .profile-pic {
         width: 120px;
         height: 120px;

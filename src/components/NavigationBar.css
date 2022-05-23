@@ -6,6 +6,7 @@
     padding-left: 50px;
     margin-bottom: 70px;
     background-color: #b8a69f;
+    z-index: 3;
 }
 .nav-name {
     color: #1f1e1e;
@@ -36,21 +37,24 @@
     color: #fffaf2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .nav-name {
         font-size: 18px;
-        margin-right: 10px;
+        margin-left: 20px;
     }
     .nav-links {
         font-size: 14px;
     }
-    .nav-menu {
-        display: grid;
-        grid-template-columns: repeat(3, auto);
-        grid-gap: 30px;
+    .nav-links.active {
+        font-size: 14px;
+        background-color: #d2c3bc;
+    }
+    .nav-icon {
+        margin-right: 20px;
+        margin-left: 15px;
     }
     .nav-bar {
         padding-left: 12px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 }
