@@ -70,7 +70,7 @@
 }
 
 .section-header {
-    margin-right: 150px;
+   width: 250px;
 }
 
 .exp-title {
@@ -101,16 +101,49 @@
     display: flex;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .home-content {
+        margin-left: -120px;
+        padding-right: 30px;
+    }
+    .profile-pic {
+        width: 140px;
+        height: 140px;
+        margin-left: 40px;
+    }
+    .intro-text {
+        font-size: 16px;
+    }
+    .intro-header {
+        font-size: calc(12px + 2vmin);
+    }
+    .intro {
+        margin-left: 50px;
+    }
+    .app-header {
+        padding: 15px;
+    }
+    .section-header {
+        width: 200px;
+    }
+    .section-para {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 550px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .profile-pic {
         width: 120px;
         height: 120px;
+        margin-left: 15px;
     }
     .intro-text {
         font-size: 15px;
     }
     .intro {
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .app-header {
         padding: 15px;
@@ -131,36 +164,12 @@
     .home-section {
         font-size: 14px;
     }
+    .section-header {
+        width: 120px;
+    }
     .section-para {
         font-size: 15px;
         line-height: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-    .section-header {
-        margin-right: 50px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .home-content {
-        margin-left: -120px;
-        padding-right: 30px;
-    }
-    .profile-pic {
-        width: 120px;
-        height: 120px;
-    }
-    .intro-text {
-        font-size: 15px;
-    }
-    .intro-header {
-        font-size: calc(12px + 2vmin);
-    }
-    .intro {
-        margin-left: 50px;
-    }
-    .app-header {
-        padding: 15px;
+        max-width: 220px;
     }
 }
