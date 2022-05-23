@@ -98,11 +98,11 @@ function Homepage() {
           </div>
           </div>
         </li>
-        <li className='home-section' id='skills'>
-          <div className='section-header'>SKILLS</div>
+        <li className='home-section'>
+          <div className='section-header' id='skills'>SKILLS</div>
           <div className='section-para'>
-            <div>Java, JavaScript, React, React Native, HTML5, CSS3, C, Python, Ruby on Rails, Redux, Figma</div>
-            <div className='section-para'>Languages: Fluent in English and Mandarin </div>
+          <div>Java, JavaScript, React, React Native, HTML5, CSS3, C, Python, Ruby on Rails, Redux, Figma</div>
+          <div className='section-para'>Languages: Fluent in English and Mandarin </div>
           </div>
         </li>
         </ul>
