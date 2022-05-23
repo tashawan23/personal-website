@@ -17,7 +17,7 @@ function Homepage() {
         <div className='app-header'>
           <div className='profile-section'>
           <img
-            src="me-cropped.png"
+            src={require("../assets/me-cropped.png")}
             alt='Me'
             className='profile-pic'/>
               <button className='social-button' onClick={goToLinkedin}>LinkedIn</button>
