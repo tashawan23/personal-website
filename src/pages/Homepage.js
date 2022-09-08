@@ -24,10 +24,10 @@ function Homepage() {
           <button className='social-button' onClick={goToGithub}>Github</button>
           </div>
              <div className='intro'>
-               <div className='intro-header'>Hi! I am Tasha</div>
+               <div className='intro-header'>Hi, I am Tasha!</div>
                <div className='intro-text'>Year 4 Computer Science undergradute studying in NUS and an aspiring software engineer.
                I have experience in full stack development and I am always looking for new experiences to discover my interests further!
-               I have a passion for solving problems and I am excited to learn more about things I am interested in. 
+               I have a passion for solving problems and building things and I am excited to learn more about things I am interested in. 
                </div>
                </div>
         </div>
@@ -43,6 +43,19 @@ function Homepage() {
         <li className='home-section'>
           <div className='section-header' id='experience'>EXPERIENCE</div>
           <div>
+          <div className='section-para'>
+            <div className='exp-title'>Full Stack Software Developer Intern at Wise, May 2022 – Aug 2022</div>
+            <br />
+            <div className='exp-desc'>Developed internal tools and API for the ordering and issuance of virtual and physical cards</div>
+            <ul>
+              <li>Built new API endpoints for internal end to end services with gRPC by implementing server and client code, increasing the speed and efficiency of message transmission</li>
+              <li>Developed an internal mass card order fee refund tool with the integration of an internal double approval system to refund customers, increasing the efficiency of the process significantly and eliminating the reliance of the operations team on the engineering team to execute this manually using Postman</li>
+              <li>Configured authorization rules using JW Bouncer and SPIFFE to comply with security regulations and ensure that the approval and execution of the fee refund can only be done by authorized team members</li>
+              <li>Implemented search for card details by card order id for an internal platform using Apache Camel Elasticsearch, Kafka to subscribe to stream of events and Angular for frontend implementation</li>
+              <li>Deployed code to Production with Octopus and monitored performance with Kibana, Grafana and Rollbar</li>
+            </ul>
+          </div>
+          <br />
           <div className='section-para'>
             <div className='exp-title'>Frontend Software Developer Intern at TicTag, May 2021 – Nov 2021</div>
             <br />
